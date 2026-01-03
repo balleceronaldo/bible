@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Bible Memory Verse</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>📖 Bible Memory Verse</h1>
+
+  <div class="card">
+    <div id="reference" class="reference"></div>
+    <div id="verse" class="verse"></div>
+  </div>
+
+  <textarea id="input" placeholder="Type the verse from memory..."></textarea>
+
+  <div class="buttons">
+    <button onclick="loadVerse()">New Verse</button>
+    <button onclick="hideWords()">Hide Words</button>
+    <button onclick="checkAnswer()">Check</button>
+    <button onclick="showVerse()">Show Verse</button>
+  </div>
+
+  <p id="result"></p>
+
+  <script src="app.js"></script>
+</body>
+</html>
